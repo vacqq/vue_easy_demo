@@ -1,0 +1,28 @@
+.el-select-dropdown__item {
+  padding: 0;
+}
+ 
+.el-select-dropdown__wrap {
+  background: #8795b5 !important;
+  padding: 0;
+}
+ 
+.el-select-dropdown__list {
+  padding: 0;
+}
+ 
+.el-select-dropdown__item {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+}
+ 
+.el-select-dropdown__item.selected,
+.el-select-dropdown__item.hover {
+  border-left: 5px #0593d2 solid;
+  padding-left: 15px;
+  color: #0593d2;
+  background: #fff;
+}
